@@ -1,0 +1,472 @@
+/*----------------------------------*/
+/*Blue Colour = #2d6eff Blue*/ 
+/*----------------------------------*/
+
+/*----------------------------------*/
+/*BASIC SETUP*/
+/*----------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #fff;
+    color: #222;
+    font-family: 'Lato','Arial',sans-serif;
+    font-weight: 300;
+    font-size: 20px;/*global relational font size for all other font sizes*/
+    text-rendering: optimizeLegibility;
+}
+
+.clearfix{zoom: 1}
+.clearfix:after{
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0px;
+    visibility: hidden;
+}
+
+/*------------------------------------*/
+/*REUSABLE COMPONENTS*/
+/*------------------------------------*/
+.row{
+    max-width: 1140px;
+    margin: 0 auto;/*top&bottom=0, left&right=auto*/
+}
+
+section{
+    padding: 5px 0 5px 0;
+}
+
+section .section-contact{
+    padding: 5px 0 80px 0;
+}
+
+.box{
+    padding: 1%;
+}
+
+/*------------HEADINGS------------*/
+
+h1,h2,h3{
+    font-weight: 300; 
+    text-transform: uppercase; 
+}
+
+h1{/*h1 are default bold*/
+    color: #222;
+    font-size:260%; /*200% of html function font-size*/
+    margin-top: 40px;
+    padding-left: 25%;
+    padding-right: 25%;
+    word-spacing: 4px; 
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+h2{
+    font-size: 185%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 2%;
+    margin-top: 5%;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+h2:after{
+    display: block;
+    height: 2px;
+    /*background-color: #2d6eff;*/
+    content: " ";
+    width: 20%; 
+    margin-left: 2%;
+    text-align: left;
+}
+
+.first-title{
+    margin-top: 10px;
+}
+
+
+
+/*------------------------------------*/
+/*HEADER*/
+/*------------------------------------*/
+
+header{
+    /*background-color: #183595;*/
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.7)),to(rgba(0, 0, 0, 0.7))), url(Images/Waterloop_Goose1_Rendor.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(Images/Waterloop_Goose1_Rendor.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.hero-text-box{/*centered*/
+    position: absolute;
+    width: 1140px;
+    top:50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+/******Main Nav******/
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 55px;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    padding: 8px 0px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    color: #aaa;
+}
+
+/******Sticky Nav*******/
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 2px 2px #efefef;
+    z-index: 9999; /*max highest*/
+    height: 60px;
+}
+
+.sticky .main-nav{
+    margin-top: 18px;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited{
+    padding: 16px 0px;
+    color: #555;
+}
+
+.sticky .main-nav li a:hover,
+.sticky .main-nav li a:active{
+    padding: 16px 0px;
+    color: #bbb;
+}
+
+/******Mobile Nav******/
+.mobile-nav-icon {
+    display: none;
+    float: right;
+}
+
+/*------------BUTTONS------------*/
+.btn:link,
+.btn:visited,
+input[type=submit]{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    border: 1px solid #2d6eff;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited,
+input[type=submit]{
+    background-color: #2d6eff;
+    margin-right: 15px;
+    color: #fff;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited{
+    color: #2d6eff;
+}
+
+.btn:hover,
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active{
+    background-color: #2d6eff;
+    border: 1px solid #2d6eff;
+}
+
+.btn-full:hover,
+.btn-full:active{
+    background-color: #2d6eff;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active{
+    color: #fff;
+}
+
+
+/*------------------------------------*/
+/*Project Box*/
+/*------------------------------------*/
+.project{
+    background-color: #eee;
+    margin: 0 2%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-top: 1%;
+    padding-left: 1%;
+}
+
+.section-design-team{
+    padding-top: 0;
+}
+
+h3{
+    font-size: 125%;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.skills-text{
+    padding-bottom: -10px;
+    
+}
+
+/*Resume Bullets*/
+.skills-text li {
+    list-style-type: none;
+    position: relative;     /* It is required for setting position to absolute in the next rule. */
+}
+
+.skills-text li::before {
+    content: '\2022';       /* The unicode for • character */
+    position: absolute;
+    left: -0.8em;          /* Adjust this value so that it appears where you want. */
+    top: 0.3em;
+    font-size: 0.8em;      
+}
+
+.skills-text p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.skills-text li p{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+/*Icons*/
+.skills-icon{
+    padding: 0;
+    text-align: center;
+    font-weight: 100;
+}
+
+.skills-icon i{
+    font-size: 300%;
+    font-style: normal;
+    text-align: center;
+}
+
+/*Icons Text*/
+.skills-icon i p{
+    font-size: 40%;
+    font-style: normal;
+    text-align: center;
+}
+
+.skills-icon p{
+    font-size: 75%;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 2px;
+    line-height: 145%;
+}
+
+
+
+/*------------ICONS------------*/
+.icon-big{
+    font-size: 350%;
+    display: block;
+    color: #2d6eff;
+    margin-bottom: 10px;
+}
+
+.icon-small{
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #2d6eff;
+    font-size: 120%;
+    margin-right: 10px;
+    /*secrets to align text and icons*/
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
+/*------------LINKS------------*/
+
+a:link,
+a:visited{
+    color: #e67e22;
+    text-decoration: none;
+    padding-bottom: 1px;
+}
+
+a:hover,
+a:active{
+    color: #101010;
+}
+
+
+
+/*------------------------------------*/
+/*FORM*/
+/*------------------------------------*/
+.section-contact{
+    width: 100%;
+    margin: 0 auto%;
+    padding: 50px 20%;
+}
+
+.section-contact h2{
+    font-size: 150%;
+    text-align: center;
+}
+
+.section-contact .span-1-of-3{
+    text-align: center;
+    padding-top: 7px;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea{
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea{
+    height: 100px;
+}
+
+input[type=checkbox]{
+    margin: 10px 5px 10px 0;
+}
+
+*:focus {outline:none;}
+
+/*------------------------------------*/
+/*FOOTER*/
+/*------------------------------------*/
+
+footer{
+    background-color: #333;
+    padding: 50px;
+    font-size: 80%;
+}
+
+.footer-nav{
+    list-style: none;
+    float: left;
+}
+
+.social-links{
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child{
+    margin-right: 50px;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited{
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.social-links li a:link,
+.social-links li a:visited{
+    font-size: 150%;
+}
+
+.footer-nav li a:hover,
+.footer-na li a:active{
+    color: #ddd;
+}
+
+.ion-social-facebook,
+.ion-social-github,
+.ion-social-linkedin{
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.ion-social-facebook:hover{
+    color:#3b5998;
+}
+
+.ion-social-github:hover{
+    color:#fafafa;
+}
+
+.ion-social-linkedin:hover{
+    color:#0077b5;
+}
+
+footer p{
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
