@@ -1,7 +1,7 @@
 $(document).ready(function(){
     
     /*For sticky navigation*/
-    $('.js--about-me').waypoint(function(direction){
+    $('.js--section-features').waypoint(function(direction){
         if (direction == "down"){
             $('nav').addClass('sticky')
         }
@@ -18,7 +18,7 @@ $(document).ready(function(){
     });
     
     $('.js--scroll-to-start').click(function(){
-        $('html, body').animate({scrollTop: $('.js--section-skills').offset().top}, 1000);
+        $('html, body').animate({scrollTop: $('.js--section-features').offset().top}, 1000);
     });
     
     /*Navigation scroll*/
