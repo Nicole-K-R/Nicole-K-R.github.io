@@ -1,5 +1,4 @@
 $(document).ready(function(){
-    
     /*For sticky navigation*/
     $('.js--about-me').waypoint(function(direction){
         if (direction == "down"){
@@ -61,7 +60,7 @@ $(document).ready(function(){
 
     
     /*Animations on scroll*/
-    $('.js--wp-1').waypoint(function(direction){
+    /*$('.js--wp-1').waypoint(function(direction){
         $('.js--wp-1').addClass('animated fadeIn');
     }, {
         offset: '50%'
@@ -83,7 +82,7 @@ $(document).ready(function(){
         $('.js--wp-4').addClass('animated pulse');
     }, {
         offset: '50%'
-    });
+    });*/
     
    /*Mobile Navigation*/
     $('.js--nav-icon').click(function(){
