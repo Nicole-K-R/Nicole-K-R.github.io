@@ -232,8 +232,18 @@ input[type=submit]:active{
 /*Menu Bar*/
 /*------------------------------------*/
 .section-menu-bar{
-    margin: 0 15%;
+    margin: 0 5%;
     text-align: center;
+    width: 90%;
+    padding-left: 8%;
+}
+
+.section-menu-bar li{
+    list-style: none;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    width: 15%;
 }
 
 .section-menu-bar a{
@@ -258,11 +268,13 @@ input[type=submit]:active{
 /*------------------------------------*/
 .project{
     background-color: #eee;
-    margin: 0 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
     border-radius: 5px;
-    margin-bottom: 20px;
     padding-top: 1%;
-    padding-left: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .section-design-team{
