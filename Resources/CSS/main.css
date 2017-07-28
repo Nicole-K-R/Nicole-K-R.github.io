@@ -315,25 +315,27 @@ h2:after{
     font-weight: 400;
 }
 
-.section-skills li,
-.section-skills p{
-    font-size: 90%;
-    list-style: none;
+.section-skills li{
+    font-size: 85%;
     margin: 15px 0;
     width: 100%;
+    list-style-type: none;
+    position: relative;
+    text-align: left;
 }
 
-.section-skills .software li{
-    float: left;
-    width: 50%;
-    margin: 0 0 10px 0;
+.section-skills li::before {
+    content: '\2022';       /* The unicode for • character */
+    position: absolute;
+    left: -1em;          /* Adjust this value so that it appears where you want. */
+    top: 0.3em;
+    font-size: 0.8em;      
 }
 
 .skill-type{
     margin-left: 0;
     padding: 0 15px;
 }
-
 
 
 /*------------------------------------*/
@@ -385,7 +387,7 @@ h2:after{
 .section-contact{
     width: 100%;
     margin: 0 auto%;
-    padding: 50px 20%;
+    padding: 50px 10%;
     background-color: #fbfbfb; 
     padding-top: 80px;
 }
@@ -416,6 +418,24 @@ textarea{
 
 input[type=checkbox]{
     margin: 10px 5px 10px 0;
+}
+
+.form{
+    padding-right: 10%;
+}
+
+.submit-btn{
+    padding-left: 30%;
+}
+
+.my-info {
+    padding-top: 5%;
+}
+
+.my-info li{
+    list-style: none;
+    line-height: 1.5;
+    letter-spacing: 1px;
 }
 
 *:focus {outline:none;}
