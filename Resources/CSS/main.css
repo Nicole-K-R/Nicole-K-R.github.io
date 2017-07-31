@@ -280,7 +280,7 @@ h2:after{
 /*About Me*/
 /*------------------------------------*/
 .about-me-image img{
-    border-radius: 50%;   
+    border-radius: 50%;
 }
 
 .about-me-text{
@@ -301,6 +301,35 @@ h2:after{
     border-bottom: 1px solid #111;
 }
 
+.social-links-about-me{
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding-right: 50px;
+}
+
+.social-links-about-me li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.social-links-about-me li a:link,
+.social-links-about-me li a:visited{
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.social-links-about-me li a:link,
+.social-links-about-me li a:visited{
+    font-size: 150%;
+}
+
+.section-about-me .ion-social-github:hover{
+    color:#111;
+}
 
 /*------------------------------------*/
 /*Skills*/
@@ -503,7 +532,7 @@ footer{
     color:#3b5998;
 }
 
-.ion-social-github:hover{
+.footer .ion-social-github:hover{
     color:#fafafa;
 }
 
