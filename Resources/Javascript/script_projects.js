@@ -12,6 +12,56 @@ $(document).ready(function(){
         offset: '80px;'
     });
     
+    /*Highlighted Navigation*//*
+    $('.js--desing-teams').waypoint(function(direction){
+        if (direction == "down"){
+            $('design-teams').addClass('highlight')
+        }
+        else{
+            $('design-teams').removeClass('highlight')
+        }
+    });
+    $('.js--coop').waypoint(function(direction){
+        if (direction == "down"){
+            $('coop').addClass('highlight')
+        }
+        else{
+            $('coop').removeClass('highlight')
+        }
+    });
+    $('.js--courses').waypoint(function(direction){
+        if (direction == "down"){
+            $('courses').addClass('highlight')
+        }
+        else{
+            $('courses').removeClass('highlight')
+        }
+    });
+    $('.js--side-projects').waypoint(function(direction){
+        if (direction == "down"){
+            $('side-projects').addClass('highlight')
+        }
+        else{
+            $('side-projects').removeClass('highlight')
+        }
+    });
+    $('.js--hackathons').waypoint(function(direction){
+        if (direction == "down"){
+            $('hackathons').addClass('highlight')
+        }
+        else{
+            $('hackathons').removeClass('highlight')
+        }
+    });
+    $('.js--high-school').waypoint(function(direction){
+        if (direction == "down"){
+            $('high-school').addClass('highlight')
+        }
+        else{
+            $('high-school').removeClass('highlight')
+        }
+    });*/
+    
     /*Navigation scroll*/
     $(function(){
     // Select all links with hashes
