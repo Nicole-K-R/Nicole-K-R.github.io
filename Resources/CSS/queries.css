@@ -1,19 +1,333 @@
 /* Tablets(landscape) and smaller computers: from 1024px to 1200px */
 @media only screen and (max-width: 1200px){
-
+    .main-nav{
+        margin-right: 20px;
+    }
+    
+    .headshot h2{
+        width: 90%;
+        font-size: 160%;
+        margin-left: 5%;
+    }
+    
+    .about-me-image{
+        padding-left: 10px;
+    }
 }
 
 /* Tablets(portrait): from 768px to 1023px */
 @media only screen and (max-width: 1023px){
+    .main-nav{
+        margin-right: 20px;
+    }
+    .main-nav li{
+        margin-left: 20px;
+    }
     
+    .headshot h1{
+        width: 90%;
+        font-size: 400%;
+        margin-left: 5%;
+    }
+    .headshot h2{
+        width: 90%;
+        font-size: 120%;
+        margin-left: 5%;
+    }
+    
+    .about-me-text p{
+        font-size: 80%;
+        padding-right: 15px;
+    }
+    .about-me-image img{
+        padding-left: 10px;
+        width: 80%;
+    }
+    
+    .social-links-about-me p{
+        font-size: 80%;
+    }
+    
+    .skill-type{
+        width: 90%;
+        padding-left: 5%;
+    }
+    .section-skills li{
+        text-align: center;
+    }
+    .section-skills li::before {
+        display: none;
+    }
+    .section-skills h2{
+        text-align: center;
+        width: 50%;
+        padding-left: 39%;
+    }
+    
+    .section-contact{
+        width: 100%;
+        margin: 0 auto%;
+        padding: 50px 10%;
+        background-color: #fbfbfb; 
+        padding-top: 80px;
+    }
+
+    .section-contact h2{
+        font-size: 100%;
+    }
+
+    input[type=text],
+    input[type=email],
+    select,
+    textarea{
+        width: 80%;
+        height: 30px;
+        padding: 7px;
+        font-size: 65%;
+    }
+
+    textarea{
+        height: 30px;
+    }
+
+    .my-info{
+        padding: 10px 45px 0 0;
+        font-size: 80%;
+    }
 }
 
 /* Larger phones and small tablets: from 481px to 767px */
 @media only screen and (max-width: 767px){
+    .main-nav{
+        margin-right: 10px;
+        font-size: 80%;
+    }
+    .main-nav li{
+        margin-left: 10px;
+    }
+    
+    .headshot h1{
+        width: 90%;
+        font-size: 250%;
+        margin-left: 5%;
+    }
+    .headshot h2{
+        width: 90%;
+        font-size: 70%;
+        margin-left: 5%;
+    }
+    
+    .about-me-image{
+        padding-top: 50px;
+    }
+    .about-me-text p{
+        font-size: 70%;
+        padding-right: 15px;
+    }
+    .about-me-image img{
+        padding-left: 10px;
+        width: 80%;
+    }
+    .social-links-about-me p{
+        padding-left: 2px;
+        font-size: 70%;
+    }
+    .social-links-about-me li i{
+        font-size: 75%;
+        width: 10px;
+    }
+    
+    .skill-type{
+        width: 90%;
+        padding-left: 5%;
+    }
+    .section-skills li{
+        text-align: center;
+    }
+    .section-skills li::before {
+        display: none;
+    }
+    .section-skills h2{
+        text-align: center;
+        width: 50%;
+        padding-left: 35%;
+    }
+    
+    .section-contact{
+        width: 100%;
+        margin: 0 auto%;
+        padding: 50px 10%;
+        background-color: #fbfbfb; 
+        padding-top: 80px;
+    }
+
+    .section-contact h2{
+        font-size: 90%;
+    }
+
+    input[type=text],
+    input[type=email],
+    select,
+    textarea{
+        width: 80%;
+        height: 25px;
+        padding: 7px;
+        font-size: 60%;
+        margin-top: 10px;
+    }
+    label[for=name],
+    label[for=email],
+    label[for=subject],
+    label[for=message]{
+        font-size: 75%;
+    }
+    textarea{
+        height: 25px;
+    }
+    .my-info{
+        padding-top: 30px;
+        font-size: 50%;
+    }
+    
+    footer{
+        padding: 50px;
+        font-size: 70%;
+    }
+    .footer-nav li{
+        margin-right: 5px;
+        font-size: 65%;
+    }
+    .social-links li{
+        font-size: 100%;
+    }
+    .footer-nav li:last-child,
+    .social-links li:last-child{
+        margin-right: 10px;
+    }
+    .footer p{
+        font-size: 80%;
+    }
 
 }
 
 /* Small phones: from 0 to 480px */
+/*Change:
+-header
+-nav
+-about me
+-skills (decrease size)
+-form
+-footer*/
+
 @media only screen and (max-width: 480px){
+    .main-nav{
+        margin-right: 10px;
+        font-size: 80%;
+    }
+    .main-nav li{
+        margin-left: 10px;
+    }
+    
+    .headshot h1{
+        width: 90%;
+        font-size: 250%;
+        margin-left: 5%;
+    }
+    .headshot h2{
+        width: 90%;
+        font-size: 70%;
+        margin-left: 5%;
+    }
+    
+    .about-me-image{
+        padding-top: 50px;
+    }
+    .about-me-text p{
+        font-size: 70%;
+        padding-right: 15px;
+    }
+    .about-me-image img{
+        padding-left: 10px;
+        width: 80%;
+    }
+    .social-links-about-me p{
+        padding-left: 2px;
+        font-size: 70%;
+    }
+    .social-links-about-me li i{
+        font-size: 75%;
+        width: 10px;
+    }
+    
+    .skill-type{
+        width: 90%;
+        padding-left: 5%;
+    }
+    .section-skills li{
+        text-align: center;
+    }
+    .section-skills li::before {
+        display: none;
+    }
+    .section-skills h2{
+        text-align: center;
+        width: 50%;
+        padding-left: 35%;
+    }
+    
+    .section-contact{
+        width: 100%;
+        margin: 0 auto%;
+        padding: 50px 10%;
+        background-color: #fbfbfb; 
+        padding-top: 80px;
+    }
+
+    .section-contact h2{
+        font-size: 90%;
+    }
+
+    input[type=text],
+    input[type=email],
+    select,
+    textarea{
+        width: 80%;
+        height: 25px;
+        padding: 7px;
+        font-size: 60%;
+        margin-top: 10px;
+    }
+    label[for=name],
+    label[for=email],
+    label[for=subject],
+    label[for=message]{
+        font-size: 75%;
+    }
+    textarea{
+        height: 25px;
+    }
+    .my-info{
+        padding-top: 30px;
+        font-size: 50%;
+    }
+    
+    footer{
+        padding: 50px;
+        font-size: 70%;
+    }
+    .footer-nav li{
+        margin-right: 5px;
+        font-size: 65%;
+    }
+    .social-links li{
+        font-size: 100%;
+    }
+    .footer-nav li:last-child,
+    .social-links li:last-child{
+        margin-right: 10px;
+    }
+    .footer p{
+        font-size: 80%;
+    }
 
 }
