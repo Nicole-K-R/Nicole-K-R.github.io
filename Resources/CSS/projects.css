@@ -184,6 +184,20 @@ header{
     color: #bbb;
 }
 
+.highlight{
+    color: #2d6eff;
+}
+
+.highlight:link,
+.highlight:visited{
+    color: #2d6eff;
+}
+
+.highlight:active,
+.highlight:hover{
+    color: #bbb;
+}
+
 /******Mobile Nav******/
 .mobile-nav-icon {
     display: none;
