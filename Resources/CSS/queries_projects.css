@@ -1,0 +1,238 @@
+/* Tablets(landscape) and smaller computers: from 1024px to 1200px */
+@media only screen and (max-width: 1200px){
+    .main-nav{
+        padding-right: 20px;
+        font-size: 88%;
+    }
+
+    h1{
+        font-size: 240%;
+    }    
+    
+    .skills-title p{
+        font-size: 95%;
+    }
+    
+    .skills-date p{
+        font-size: 90%;
+    }
+    
+    .skills-resume li p{
+        font-size: 90%;
+    }
+    
+    .skills-images p{
+        font-size: 75%;
+    }
+}
+
+/* Tablets(portrait): from 768px to 1023px */
+@media only screen and (max-width: 1023px){
+    .main-nav{
+        padding-right: 20px;
+        font-size: 78%;
+    }
+    .main-nav li{
+        margin-left: 8px;
+    }
+    .main-nav .main{
+        margin-right: 20px;
+    }
+    
+    h1{
+        font-size: 175%;
+    }    
+    
+    .section-design-team h2, 
+    .section-coop h2,
+    .section-university-courses h2,
+    .section-side-projects h2, 
+    .section-hackathons h2,
+    .section-high-school h2{
+        font-size: 150%;
+    }
+    .section-design-team h3, 
+    .section-coop h3,
+    .section-university-courses h3,
+    .section-side-projects h3, 
+    .section-hackathons h3,
+    .section-high-school h3{
+        font-size: 90%;
+    }
+    .skills-title p{
+        font-size: 70%;
+    }
+    .skills-date p{
+        font-size: 70%;
+    }
+    .skills-resume li p{
+        font-size: 70%;
+    }
+    .skills-text li::before {
+        top: 0em;    
+    }
+    .skills-images p{
+        font-size: 55%;
+    }
+    .skills-icon i p{
+        font-size: 33%;
+    }
+    .skills-icon p{
+        font-size: 75%;
+    }
+    
+        .section-contact{
+        width: 100%;
+        margin: 0 auto%;
+        padding: 50px 10%;
+        background-color: #fbfbfb; 
+        padding-top: 80px;
+    }
+
+    .section-contact h2{
+        font-size: 100%;
+    }
+
+    input[type=text],
+    input[type=email],
+    select,
+    textarea{
+        width: 80%;
+        height: 30px;
+        padding: 7px;
+        font-size: 65%;
+    }
+
+    textarea{
+        height: 30px;
+    }
+
+    .my-info{
+        padding: 10px 45px 0 0;
+        font-size: 80%;
+    }
+}
+
+/* Larger phones and small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px){
+    .main-nav{
+        padding-right: 10px;
+        font-size: 65%;
+    }
+    .main-nav li{
+        margin-left: 5px;
+    }
+    .main-nav .main{
+        margin-right: 70%;
+        margin-bottom: 10px;
+    }
+    
+    h1{
+        font-size: 110%;
+    }    
+    
+    .section-design-team h2, 
+    .section-coop h2,
+    .section-university-courses h2,
+    .section-side-projects h2, 
+    .section-hackathons h2,
+    .section-high-school h2{
+        font-size: 100%;
+    }
+    .section-design-team h3, 
+    .section-coop h3,
+    .section-university-courses h3,
+    .section-side-projects h3, 
+    .section-hackathons h3,
+    .section-high-school h3{
+        font-size: 80%;
+    }
+    .skills-title p{
+        font-size: 65%;
+    }
+    .skills-date p{
+        font-size: 50%;
+    }
+    .skills-resume li p{
+        font-size: 60%;
+    }
+    .skills-text li::before {
+        top: 0em;    
+        left: -0.6em;
+        font-size: 60%;
+    }
+    .skills-images p{
+        font-size: 45%;
+    }
+    .skills-icon i p{
+        font-size: 20%;
+    }
+    .skills-icon p{
+        font-size: 50%;
+    }
+    
+        .section-contact{
+        width: 100%;
+        margin: 0 auto%;
+        padding: 50px 10%;
+        background-color: #fbfbfb; 
+        padding-top: 80px;
+    }
+
+    .section-contact h2{
+        font-size: 90%;
+    }
+
+    input[type=text],
+    input[type=email],
+    select,
+    textarea{
+        width: 80%;
+        height: 25px;
+        padding: 7px;
+        font-size: 60%;
+        margin-top: 10px;
+    }
+    label[for=name],
+    label[for=email],
+    label[for=subject],
+    label[for=message]{
+        font-size: 75%;
+    }
+    textarea{
+        height: 25px;
+    }
+    .my-info{
+        padding-top: 30px;
+        font-size: 50%;
+    }
+    
+    footer{
+        padding: 50px;
+        font-size: 70%;
+    }
+    .footer-nav li{
+        margin-right: 5px;
+        font-size: 65%;
+    }
+    .social-links li{
+        font-size: 100%;
+    }
+    .footer-nav li:last-child,
+    .social-links li:last-child{
+        margin-right: 10px;
+    }
+    .footer p{
+        font-size: 80%;
+    }
+}
+
+/* Small phones: from 0 to 480px */
+/*Change:
+-size of pics
+-nav
+-form
+-footer*/
+@media only screen and (max-width: 480px){
+
+}
