@@ -12,56 +12,6 @@ $(document).ready(function(){
         offset: '80px;'
     });
     
-    /*Highlighted Navigation*//*
-    $('.js--desing-teams').waypoint(function(direction){
-        if (direction == "down"){
-            $('design-teams').addClass('highlight')
-        }
-        else{
-            $('design-teams').removeClass('highlight')
-        }
-    });
-    $('.js--coop').waypoint(function(direction){
-        if (direction == "down"){
-            $('coop').addClass('highlight')
-        }
-        else{
-            $('coop').removeClass('highlight')
-        }
-    });
-    $('.js--courses').waypoint(function(direction){
-        if (direction == "down"){
-            $('courses').addClass('highlight')
-        }
-        else{
-            $('courses').removeClass('highlight')
-        }
-    });
-    $('.js--side-projects').waypoint(function(direction){
-        if (direction == "down"){
-            $('side-projects').addClass('highlight')
-        }
-        else{
-            $('side-projects').removeClass('highlight')
-        }
-    });
-    $('.js--hackathons').waypoint(function(direction){
-        if (direction == "down"){
-            $('hackathons').addClass('highlight')
-        }
-        else{
-            $('hackathons').removeClass('highlight')
-        }
-    });
-    $('.js--high-school').waypoint(function(direction){
-        if (direction == "down"){
-            $('high-school').addClass('highlight')
-        }
-        else{
-            $('high-school').removeClass('highlight')
-        }
-    });*/
-    
     /*Navigation scroll*/
     $(function(){
     // Select all links with hashes
@@ -101,31 +51,6 @@ $(document).ready(function(){
     });
 
     
-    /*Animations on scroll*/
-    /*$('.js--wp-1').waypoint(function(direction){
-        $('.js--wp-1').addClass('animated fadeIn');
-    }, {
-        offset: '50%'
-    });
-    
-    $('.js--wp-2').waypoint(function(direction){
-        $('.js--wp-2').addClass('animated fadeInUp');
-    }, {
-        offset: '50%'
-    });
-
-    $('.js--wp-3').waypoint(function(direction){
-        $('.js--wp-3').addClass('animated fadeIn');
-    }, {
-        offset: '50%'
-    });
-    
-    $('.js--wp-4').waypoint(function(direction){
-        $('.js--wp-4').addClass('animated pulse');
-    }, {
-        offset: '50%'
-    });*/
-    
    /*Mobile Navigation*/
     $('.js--nav-icon').click(function(){
         var nav = $('.js--main-nav');
@@ -141,6 +66,4 @@ $(document).ready(function(){
             icon.removeClass('ion-close-round');
         }
     });
-
-    
 });

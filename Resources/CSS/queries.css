@@ -220,29 +220,17 @@
 -footer*/
 
 @media only screen and (max-width: 480px){
-    .mobile-nav-icon{
-        padding: 20px 0 10px 20px;
-        display: inline-block;
-        color: #fff;
-        float: left;
-        margin-bottom: 20px;
-    }
-    .mobile-nav-icon:hover,
-    .mobile-nav-icon:active{ color: #999; }
-    
     .main-nav{
         margin-top: 5px;
         margin-right: 10px;
         font-size: 80%;
-        float: left;
         padding: 0;
     }
     .main-nav li{
+        padding-top: 10px;
         margin-left: 10px;
-        display: block;
+        font-size: 80%;
     }
-    .sticky{ height: 110px; }
-    .sticky .mobile-nav-icon{ color: #999;}
     .headshot h1{
         width: 90%;
         font-size: 215%;
