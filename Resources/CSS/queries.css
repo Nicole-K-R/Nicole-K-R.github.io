@@ -229,7 +229,7 @@
     }
     .mobile-nav-icon:hover,
     .mobile-nav-icon:active{ color: #999; }*/
-    
+
     .main-nav{
         margin-top: 10px;
         margin-right: 10px;
@@ -239,6 +239,7 @@
         padding: 0;
     }
     .main-nav li{
+        padding-top: 10px;
         margin-left: 10px;
         /*display: block;*/
     }
