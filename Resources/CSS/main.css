@@ -17,7 +17,7 @@ body {
     background-color: #fff;
     color: #101010; /*#555*/
     font-family: 'Lato','Arial',sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 20px;/*global relational font size for all other font sizes*/
     text-rendering: optimizeLegibility;
 }
@@ -50,7 +50,7 @@ section{
 /*------------HEADINGS------------*/
 
 h1,h2,h3{
-    font-weight: 300; 
+    font-weight: 400;
     text-transform: uppercase; 
 }
 
@@ -261,14 +261,15 @@ header{
 .headshot h1{
     font-size: 450%; 
     /*font-family: 'Dancing Script', 'Arial',sans-serif;*/
-    font-family: 'Playball', 'Arial',sans-serif;
+    /*font-family: 'Playball', 'Arial',sans-serif;*/
+    font-weight: 700;
     margin-bottom: 2%;
 }
 
 .headshot h2{
     font-size: 180%;
     color: #fff;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 h2:after{
