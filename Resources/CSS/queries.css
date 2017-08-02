@@ -220,31 +220,50 @@
 -footer*/
 
 @media only screen and (max-width: 480px){
+    .mobile-nav-icon{
+        padding: 20px 0 10px 20px;
+        display: inline-block;
+        color: #fff;
+        float: left;
+        margin-bottom: 20px;
+    }
+    .mobile-nav-icon:hover,
+    .mobile-nav-icon:active{ color: #999; }
+    
     .main-nav{
+        margin-top: 5px;
         margin-right: 10px;
         font-size: 80%;
+        float: left;
+        padding: 0;
     }
     .main-nav li{
         margin-left: 10px;
+        display: block;
     }
-    
+    .sticky{ height: 110px; }
+    .sticky .mobile-nav-icon{ color: #999;}
     .headshot h1{
         width: 90%;
-        font-size: 250%;
+        font-size: 215%;
         margin-left: 5%;
     }
     .headshot h2{
         width: 90%;
-        font-size: 70%;
+        font-size: 55%;
         margin-left: 5%;
     }
     
-    .about-me-image{
-        padding-top: 50px;
+    .about-me-image{ 
+        padding-left: 10%;
+        padding-top: 10px;
+        width: 100%;
     }
     .about-me-text p{
         font-size: 70%;
         padding-right: 15px;
+        width: 100%;
+        padding-left: 15px;
     }
     .about-me-image img{
         padding-left: 10px;
@@ -262,13 +281,10 @@
     .skill-type{
         width: 90%;
         padding-left: 5%;
+        font-size: 70%;
     }
-    .section-skills li{
-        text-align: center;
-    }
-    .section-skills li::before {
-        display: none;
-    }
+    .section-skills li{ text-align: center; }
+    .section-skills li::before { display: none; }
     .section-skills h2{
         text-align: center;
         width: 50%;
@@ -283,19 +299,18 @@
         padding-top: 80px;
     }
 
-    .section-contact h2{
-        font-size: 90%;
-    }
+    .section-contact h2{ font-size: 90%; }
 
     input[type=text],
     input[type=email],
     select,
     textarea{
-        width: 80%;
+        width: 40%;
         height: 25px;
         padding: 7px;
         font-size: 60%;
         margin-top: 10px;
+        margin-left: 40%;
     }
     label[for=name],
     label[for=email],
@@ -303,12 +318,10 @@
     label[for=message]{
         font-size: 75%;
     }
-    textarea{
-        height: 25px;
-    }
+    textarea{ height: 25px; }
     .my-info{
         padding-top: 30px;
-        font-size: 50%;
+        font-size: 75%;
     }
     
     footer{
@@ -319,15 +332,9 @@
         margin-right: 5px;
         font-size: 65%;
     }
-    .social-links li{
-        font-size: 100%;
-    }
+    .social-links li{ font-size: 100%; }
     .footer-nav li:last-child,
-    .social-links li:last-child{
-        margin-right: 10px;
-    }
-    .footer p{
-        font-size: 80%;
-    }
+    .social-links li:last-child{ margin-right: 10px; }
+    .footer p{ font-size: 80%; }
 
 }
