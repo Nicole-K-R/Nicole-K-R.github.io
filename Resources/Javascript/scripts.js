@@ -11,15 +11,6 @@ $(document).ready(function(){
         offset: '60px;'
     });
     
-    /*Scroll on buttons*/
-    $('.js--scroll-to-plan').click(function(){
-        $('html, body').animate({scrollTop: $('.js--section-plans').offset().top}, 1000);
-    });
-    
-    $('.js--scroll-to-start').click(function(){
-        $('html, body').animate({scrollTop: $('.js--section-skills').offset().top}, 1000);
-    });
-    
     /*Navigation scroll*/
     $(function(){
     // Select all links with hashes

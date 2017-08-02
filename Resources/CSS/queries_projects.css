@@ -234,5 +234,111 @@
 -form
 -footer*/
 @media only screen and (max-width: 480px){
+    /*.mobile-nav-icon{
+        padding: 20px 0 10px 20px;
+        display: inline-block;
+        color: #fff;
+        float: left;
+        margin-bottom: 20px;
+    }
+    .mobile-nav-icon:hover,
+    .mobile-nav-icon:active{ color: #999; }
+    .sticky .mobile-nav-icon{ color: #999;}*/
+    .main-nav li{
+        padding-top: 0;
+        margin-top: 0;
+        font-size: 80%;
+    }
+    .sticky{ height: 40px; }
+    .sticky .main-nav{ margin-top: 1px; }
+    .sticky .main-nav li{ margin-top: 3px; }
+    
+    h1{ font-size: 90%; }    
+    
+    .section-design-team h2, 
+    .section-coop h2,
+    .section-university-courses h2,
+    .section-side-projects h2, 
+    .section-hackathons h2,
+    .section-high-school h2{ 
+        font-size: 80%; 
+        margin-bottom: 10px;
+        margin-top: 40px;
+    }
+    .section-design-team h3, 
+    .section-coop h3,
+    .section-university-courses h3,
+    .section-side-projects h3, 
+    .section-hackathons h3,
+    .section-high-school h3{ font-size: 60%; }
+    .skills-title p{ font-size: 65%; }
+    .skills-date p{ 
+        font-size: 50%;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .skills-resume li p{ font-size: 60%; }
+    .skills-text li::before {
+        top: 0em;    
+        left: -0.6em;
+        font-size: 60%;
+    }
+    .skills-images img{
+        width: 50%;
+        display: inline-block;
+        float: left;
+    }
+    .skills-images p{
+        padding-top: 50px;
+        font-size: 60%;
+    }
+    .skills-icon i p{ font-size: 20%; }
+    .skills-icon p{ font-size: 50%; }
+    
+    .section-contact{
+        width: 100%;
+        margin: 0 auto%;
+        padding: 50px 10%;
+        background-color: #fbfbfb; 
+        padding-top: 80px;
+    }
 
+    .section-contact h2{ font-size: 90%; }
+
+    input[type=text],
+    input[type=email],
+    select,
+    textarea{
+        width: 40%;
+        height: 25px;
+        padding: 7px;
+        font-size: 60%;
+        margin-top: 10px;
+        margin-left: 40%;
+    }
+    label[for=name],
+    label[for=email],
+    label[for=subject],
+    label[for=message]{
+        font-size: 75%;
+    }
+    textarea{ height: 25px; }
+    .my-info{
+        padding-top: 30px;
+        font-size: 75%;
+    }
+    
+    footer{
+        padding: 50px;
+        font-size: 70%;
+    }
+    .footer-nav li{
+        margin-right: 5px;
+        font-size: 65%;
+    }
+    .social-links li{ font-size: 100%; }
+    .footer-nav li:last-child,
+    .social-links li:last-child{ margin-right: 10px; }
+    .footer p{ font-size: 80%; }
 }
