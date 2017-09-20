@@ -457,6 +457,12 @@ a:active{
 .section-contact h2{
     font-size: 150%;
     text-align: center;
+    margin-bottom: 0;
+}
+
+.section-contact h3{
+    font-size: 90%;
+    text-align: center;
 }
 
 .section-contact .span-1-of-3{
