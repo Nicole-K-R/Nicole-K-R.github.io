@@ -174,9 +174,9 @@ input[type=submit]:active{
 /*------------------------------------*/
 
 header{
-    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.5)),to(rgba(0, 0, 0, 0.5))), url(Images/Waterloop_me_pod_2.jpg);
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.3)),to(rgba(0, 0, 0, 0.3))), url(Images/Waterloop_me_pod_2.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(Images/Waterloop_me_pod_2.jpg);
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center;
     height: 100vh;
     background-attachment: fixed;
