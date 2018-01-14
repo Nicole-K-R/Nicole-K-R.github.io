@@ -528,6 +528,31 @@ textarea {
     border-radius: 5px;
 }
 
+.quotes{
+    background-position: center;
+    background-size: cover;
+    width: 100%; 
+    height: 12em;
+}
+
+.quote-yoda {
+    /* https://www.express.co.uk/entertainment/films/837201/Star-Wars-What-killed-Yoda-Luke-Force-ghost-Sith-Last-Jedi */
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.3)),to(rgba(0, 0, 0, 0.3))), url(/images/Quotes/yoda.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(/images/Quotes/yoda.jpg);  
+}
+
+.quote-gretzky {
+    /* http://carmensgroup.com/an-evening-with-the-great-one-wayne-gretzky */
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.3)),to(rgba(0, 0, 0, 0.3))), url(/images/Quotes/gretzky.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(/images/Quotes/gretzky.jpeg);  
+}
+
+.text-white{
+    color: #fff;
+}
+
+
+
 /*********************************************************************************/
 /* Loader */
 /*********************************************************************************/
