@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5,
       position: relative; } }
 
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
-    font-size: 16px;
+    font-size: 14px;
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 20px;
@@ -540,12 +540,32 @@ textarea {
     background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.3)),to(rgba(0, 0, 0, 0.3))), url(/images/Quotes/yoda.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(/images/Quotes/yoda.jpg);  
 }
-
 .quote-gretzky {
     /* http://carmensgroup.com/an-evening-with-the-great-one-wayne-gretzky */
     background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.3)),to(rgba(0, 0, 0, 0.3))), url(/images/Quotes/gretzky.jpeg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(/images/Quotes/gretzky.jpeg);  
 }
+.quote-watson {
+    /*  */
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.3)),to(rgba(0, 0, 0, 0.3))), url(/images/Quotes/gretzky.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(/images/Quotes/watson.jpg);  
+}
+.quote-ellen {
+    /*  */   
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.3)),to(rgba(0, 0, 0, 0.3))), url(/images/Quotes/gretzky.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(/images/Quotes/ellen.jpg);  
+}
+.quote-musk {
+    /*  */   
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.3)),to(rgba(0, 0, 0, 0.3))), url(/images/Quotes/gretzky.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(/images/Quotes/musk.jpg);  
+}
+.quote-jobs {
+    /*  */
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.3)),to(rgba(0, 0, 0, 0.3))), url(/images/Quotes/gretzky.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(/images/Quotes/jobs.jpg);  
+}
+
 
 .text-white{
     color: #fff;
