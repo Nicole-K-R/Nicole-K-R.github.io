@@ -659,7 +659,7 @@ $(document).ready(function($) {
                        }); 
                     } else {
                         Messenger().post({
-                           message: "Error: " + data.message,
+                           message: data.message,
                            type: "error"
                        }); 
                     }
