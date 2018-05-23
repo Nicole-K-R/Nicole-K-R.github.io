@@ -659,8 +659,10 @@ $(document).ready(function($) {
                        }); 
                     } else {
                         Messenger().post({
-                           message: data.message,
-                           type: "error"
+                        //    message: data.message,
+                            message: "Sorry, I am currently experience technical difficulties, please email n2rosari@edu.uwaterloo.ca",
+                           type: "error",
+                           hideAfter: 10
                        }); 
                     }
                 }
